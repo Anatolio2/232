@@ -1,0 +1,48 @@
+.auth__input {
+    text-transform: uppercase;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.auth__input input {
+    font-family: TT Norms;
+    padding: 1vh;
+    font-size: 1.6vh;
+    border-radius: 3px;
+    border: none;
+    color: rgb(169, 171, 174);
+    outline: none;
+    background-color: rgb(30, 31, 34);
+}
+.auth__text {
+    padding-bottom: 0.8vh;
+    font-family: TT Norms;
+    color: white;
+}
+
+.require {
+    color: rgb(206, 60, 64);
+    padding-left: 0.2vh;
+}
+
+.auth__text.no-uppercase {
+    text-transform: none;
+    color: rgb(135, 141, 149);
+}
+
+.auth__text.password {
+    font-size: 1.4vh;
+    color: rgb(13, 137, 199);
+    text-transform: none;
+    margin-top: 1vh;
+}
+
+.auth__text.gray {
+    letter-spacing: .02em;
+    font-weight: 700;
+    font-size: 1.2vh;
+    line-height: 1.6vh;
+    color: rgb(174, 179, 185)
+}
