@@ -1,1 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  overflow: hidden !important;
+}
 
+body {
+  background-image: url('./renderer/assets/images/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
